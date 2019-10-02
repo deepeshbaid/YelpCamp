@@ -49,7 +49,9 @@ app.use("/",indexRoutes);
 app.use("/campgrounds/:id/comments",commentRoutes);
 app.use("/campgrounds",campgroundsRoutes);
 
-
+app.get("*",function(req,res){
+	res.send("Error 404! Page not found");
+});
 
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("The YelpCamp Server Has Started!");

@@ -54,7 +54,7 @@ body {
 }
 .slideshow li:nth-child(5) { 
   background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
-  animation-delay: 40s; 
+  animation-delay: 41s; 
 }
 
 @keyframes imageAnimation { 
